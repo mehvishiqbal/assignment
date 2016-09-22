@@ -1,0 +1,73 @@
+@import 'https://fonts.googleapis.com/css?family=Arimo';
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+
+body {
+	font-family: helvetica, sans-serif;
+	background-color: #FFFFFF;
+	padding-top:30px;
+}
+
+nav { 
+	margin: auto;
+	border-radius: 10px;
+}
+
+nav ul { 
+	text-align: center;
+	color: black;	
+	
+}
+
+
+nav ul li { 
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 25px;
+	background-color: #00B5BC;
+	padding: 15px;		
+}
+
+nav ul li:hover { 
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 25px;
+	background-color: #7CD8D8;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'arimo', sans-serif;
+	font-size:16px;
+	
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.active { 
+	color: #FFFFFF;
+}
+
+.gitty {
+	color: #039DB8; 
+	text-decoration: underline;
+}
+
+h1 {
+	text-align: center;
+    font-family: 'arimo', sans-serif;
+    padding-top: 18px;
+	padding-bottom: 10px;
+	}
+	
+p {
+	font-family: 'noto sans', sans-serif;
+	font-size: 15px;
+	padding-top:30px;
+	}
+	
+.images {
+	padding-top: 20px;
+	}
